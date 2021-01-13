@@ -9,7 +9,7 @@ Next and also important is the [schedule](https://pypi.org/project/schedule/), w
 Run on a Raspberry Pi 4.
 
 ### How To Use
-I have already provided the necessary modules in the needed in the requirements.txt file, so you would just have to run _pip install -r requirements.txt_ in the working directory. You will also have to setup EZGmail, but it is pretty straightforward and all instructions are listed on the modules PyPi page above.
+I have already provided the necessary modules in the requirements.txt file, so you would just have to run _pip install -r requirements.txt_ in the working directory. You will also have to setup EZGmail, but it is pretty straightforward and all instructions are listed on the modules PyPi page above.
 
 Then, simply place the email addresses you want to send the passage to in a file named stoic emails.txt, and you are good to go! You can change the time and days you want the passage to be sent if you would like.
 
