@@ -12,9 +12,7 @@ text = 'meditations.txt' # Declaring meditations as our text here
 with open(text,'r', encoding="utf-8") as myFile: # This will open the text as myFile, declares data as reading the text
     data = myFile.read()
 
-# DONE: Split the text into a list of paragraphs and then use the choice function on that list
 
-passage = random.choice(list(data.split(' \n')))
 
 # DONE: Add the distribution via email or text to the codeto the code
 emails = 'stoic emails.txt' # Commented in and out for testing purposes
@@ -25,12 +23,14 @@ emails = 'stoic emails.txt' # Commented in and out for testing purposes
 signature = f"\n\n\n-----\n\nThis is a daily passage from Marcus Aurielus's The Meditations. \nSit on this thought just like he did."
 
 def stoicEmail():
+    # DONE: Add date and time to the subject of the email.
+    today = date.today()
+    # DONE: Split the text into a list of paragraphs and then use the choice function on that list
+    passage = random.choice(list(data.split(' \n')))
     with open(emails,'r', encoding="utf-8") as stoicEmails:
-        # DONE: Add date and time to the subject of the email.
-        today = date.today()
         for email in stoicEmails:
             ezgmail.send(email, "Today's Passage, " + today.strftime("%m-%d-%y"), passage + signature)
-        print('Passage sent. Memento mori.')
+        print('Passage sent. Memento mori.' + + today.strftime("%m-%d-%y"))
 
 schedule.every().monday.at('08:15').do(stoicEmail)
 schedule.every().tuesday.at('08:15').do(stoicEmail)
