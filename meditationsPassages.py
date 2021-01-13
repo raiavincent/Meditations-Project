@@ -14,7 +14,7 @@ with open(text,'r', encoding="utf-8") as myFile: # This will open the text as my
 
 
 
-# DONE: Add the distribution via email or text to the codeto the code
+# DONE: Add the distribution via email
 emails = 'stoic emails.txt' # Commented in and out for testing purposes
 # emails = 'just my email.txt' # This will be commented in and out for testing purposes.
 
