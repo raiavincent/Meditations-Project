@@ -30,7 +30,7 @@ def stoicEmail():
     with open(emails,'r', encoding="utf-8") as stoicEmails:
         for email in stoicEmails:
             ezgmail.send(email, "Today's Passage, " + today.strftime("%m-%d-%y"), passage + signature)
-        print('Passage sent. Memento mori.' + + today.strftime("%m-%d-%y"))
+    print('Passage sent. Memento mori.' + + today.strftime("%m-%d-%y"))
 
 schedule.every().monday.at('08:15').do(stoicEmail)
 schedule.every().tuesday.at('08:15').do(stoicEmail)
