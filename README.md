@@ -9,7 +9,11 @@ Next and also important is the [schedule](https://pypi.org/project/schedule/), w
 Run on a Raspberry Pi 4.
 
 ### How To Use
-Simply download the files that I have placed in the [repository](https://github.com/raiavincent/Meditations-Project), install schedule and EZGmail (easy to do with the instructions on the package site), place your email address in a separate text file called stoic emails.txt and you are good to go! If you would like, I can also add you to my distribution list so I can worry about the nitty gritty.
+I have already provided the necessary modules in the needed in the requirements.txt file, so you would just have to run _pip install -r requirements.txt_ in the working directory. You will also have to setup EZGmail, but it is pretty straightforward and all instructions are listed on the modules PyPi page above.
+
+Then, simply place the email addresses you want to send the passage to in a file named stoic emails.txt, and you are good to go! You can change the time and days you want the passage to be sent if you would like.
+
+Easiest would to just be to contact myself, and I can add you to my own list to receive a passage at 8:15 AM weekdays.
 
 ### Stoicism
 If you are new to stoicism and would like to know more, I would reccomend reading _The Meditations_ or visiting [The Daily Stoic](https://dailystoic.com/) and reading books from Ryan Holiday.
