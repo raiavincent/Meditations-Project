@@ -6,6 +6,8 @@ The main module that is used to run is [EZGmail](https://pypi.org/project/EZGmai
 
 Next and also important is the [schedule](https://pypi.org/project/schedule/), which easily allows the code to run on set days and time, so the passage is there in the morning.
 
+Run on a Raspberry Pi.
+
 ### How To Use
 Simply download the files that I have placed in the [repository](https://github.com/raiavincent/Meditations-Project), install schedule and EZGmail (easy to do with the instructions on the package site), place your email address in a separate text file called stoic emails.txt and you are good to go! If you would like, I can also add you to my distribution list so I can worry about the nitty gritty.
 
