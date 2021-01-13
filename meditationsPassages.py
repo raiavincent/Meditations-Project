@@ -37,3 +37,7 @@ schedule.every().tuesday.at('08:15').do(stoicEmail)
 schedule.every().wednesday.at('08:15').do(stoicEmail)
 schedule.every().thursday.at('08:15').do(stoicEmail)
 schedule.every().friday.at('08:15').do(stoicEmail)
+
+while True:
+    schedule.run_pending()
+    time.sleep(1)
