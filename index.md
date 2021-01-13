@@ -1,4 +1,8 @@
 ## Meditations Passages Project
+
+![image](https://user-images.githubusercontent.com/61218788/104396473-ba69bd00-5518-11eb-85dd-f48b186828d4.png)
+
+
 The Meditation Passages Project is a program which disseminates a passage from Marcus Aurelius's renowned _The Meditatons_, which is a collection of writings from his daily journal. It is foundational to the Stoic philosphy, and has inspired myself, my friends, and countless others. This project allows you to read one of his thoughts a day and meditate on it.
 
 ### Modules Used
@@ -13,3 +17,4 @@ Simply download the files that I have placed in the [repository](https://github.
 
 ### Stoicism
 If you are new to stoicism and would like to know more, I would reccomend reading _The Meditations_ or visiting [The Daily Stoic](https://dailystoic.com/) and reading books from Ryan Holiday.
+
