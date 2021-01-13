@@ -1,0 +1,2 @@
+schedule==0.6.0
+EZGmail==0.0.8
