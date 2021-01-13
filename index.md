@@ -1,5 +1,5 @@
 ## Meditations Passages Project
-The Meditation Passages Project is a project which disseminates a passage from Marcus Aurelius's renowned _The Meditatons_, which is a collection of writings from his daily journal. It is foundational to the Stoic philosphy, and has inspired myself, my friends, and countless others. This project allows you to read one of his thoughts a day and meditate on it.
+The Meditation Passages Project is a program which disseminates a passage from Marcus Aurelius's renowned _The Meditatons_, which is a collection of writings from his daily journal. It is foundational to the Stoic philosphy, and has inspired myself, my friends, and countless others. This project allows you to read one of his thoughts a day and meditate on it.
 
 ### Modules Used
 The main module that is used to run is [EZGmail](https://pypi.org/project/EZGmail/), developed by Al Sweigart, to send the passage from a gmail account set up for this specific purpose.
