@@ -20,7 +20,7 @@ emails = 'stoic emails.txt' # Commented in and out for testing purposes
 
 # DONE: Add a signature to the email.
 
-signature = f"\n\n\n-----\n\nThis is a daily passage from Marcus Aurielus's The Meditations. \nSit on this thought just like he did."
+signature = f"\n\n\n-----\n\nThis is a daily passage from Marcus Aurielus's The Meditations. \nSit on this thought just like he did.\nFor questions, comments, or to be removed from the list, please contact vincentraia1@gmail.com."
 
 def stoicEmail():
     # DONE: Add date and time to the subject of the email.
