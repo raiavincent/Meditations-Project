@@ -1,3 +1,3 @@
 import meditationsPassages as mp
 
-mp.stoicEmail('stoic emails.txt')
+mp.stoicEmail('emails.txt')
