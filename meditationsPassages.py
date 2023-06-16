@@ -12,11 +12,7 @@ text = 'meditations.txt' # Declaring meditations as our text here
 with open(text,'r', encoding="utf-8") as myFile: # This will open the text as myFile, declares data as reading the text
     data = myFile.read()
 
-
-
-# DONE: Add the distribution via email
-emails = 'stoic emails.txt' # Commented in and out for testing purposes
-# emails = 'just my email.txt' # This will be commented in and out for testing purposes.
+print('here')
 
 # DONE: Add a signature to the email.
 
@@ -41,6 +37,8 @@ schedule.every().wednesday.at('08:15').do(stoicEmail)
 schedule.every().thursday.at('08:15').do(stoicEmail)
 schedule.every().friday.at('08:15').do(stoicEmail)
 
-while True:
+""" while True:
     schedule.run_pending()
-    time.sleep(1)
+    time.sleep(1) """
+
+stoicEmail()
