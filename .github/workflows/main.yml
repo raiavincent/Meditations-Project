@@ -15,10 +15,10 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: '3.9' # specify your Python version
+        python-version: '3.9' 
         
     - name: Install Dependencies
-      run: pip install -r requirements.txt # if you have any dependencies
+      run: pip install -r requirements.txt 
       
     - name: Run Python Script
-      run: python meditastionsPassages.py # replace "your_script.py" with your actual script name
+      run: python meditationsPassages.py
